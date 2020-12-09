@@ -1,0 +1,29 @@
+.Wraper{
+    display: flex;
+  flex-flow:column wrap;
+    width: 324px;
+    height: 226px;
+    top:1650px;
+    left: 560px;
+  position: absolute;
+  background-color: darkgreen;
+}
+
+.Card :nth-child(2){
+ font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+color: #262B35;
+margin-top: 20px;
+}
+.Card :nth-child(3){
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 160%;
+color: #606C84;
+margin-top: 15px;
+}

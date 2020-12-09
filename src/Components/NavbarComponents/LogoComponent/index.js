@@ -1,5 +1,5 @@
 import React from 'react'
-import LogoNav from '../../Assets/images/logo.png'
+import LogoNav from '../../../Assets/images/logo.png'
 const Logo = () => {
     return (
         <div>

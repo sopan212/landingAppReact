@@ -1,0 +1,29 @@
+ ul{
+    list-style: none;
+    position: relative;
+    left: 175px;
+    top:48px;
+
+
+}
+ul li{
+    display: inline-block;
+    margin-left: 20px;
+    top:36px;
+    
+}
+ ul li a{
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+a:hover {
+    color:white;
+    opacity: 1;
+}

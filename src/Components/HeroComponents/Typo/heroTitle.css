@@ -1,0 +1,47 @@
+.title{  
+position: absolute;
+    width: 600px;
+    height: 444px;
+    left: 102px;
+    top: 190px;
+}
+.title h1{
+width: 600px;
+height: 204px;
+left: 0px;
+top: 50px;
+
+/* Hero / Title */
+
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 55px;
+line-height: 70px;
+
+letter-spacing: -0.00em;
+
+color: #FFFFFF;
+}
+.title h1 span{
+    color:#11b22c;
+    display: inline-block;
+}
+
+.title p{
+    position: absolute;
+    width: 560px;
+    height: 96px;
+    left: 0;
+    top: 234px;
+    padding: 5px;
+    
+    /* Hero / Paragraph */
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;    
+    color: #FFFFFF;
+}

@@ -3,8 +3,8 @@ import './Links.css'
 const LinkRight = () => {
   return (
     <div className="link-right">
-      <a href="">Sign</a>
-      <a href="">Get Started</a>
+      <a className="left" href="">Sign</a>
+      <a className="right" href="">Get Started</a>
     </div>
   )
 }

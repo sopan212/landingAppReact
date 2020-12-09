@@ -1,0 +1,37 @@
+
+.link-right{
+    position: absolute;
+    width: 180px;
+    height: 36px;
+    left: 1100px;
+    top: 39px;
+   font-family: inter;
+  
+  
+}
+.left{
+    text-decoration: none;
+    font-weight: bold;
+    color:#262B35;
+    width: 60px;
+    height: 36px;
+    left: 1141px;
+    top: 39px;
+    margin-right:5px;
+} 
+.right{
+    text-decoration: none;
+    font-weight: bold;
+    color:#1ECE7A;
+    width: 96px;
+    height: 36px;
+    left: 1225px;
+    top: 39px;
+    margin-left:5px;
+}
+.right:hover{
+    color:#1ECE7A;
+}
+.left:hover{
+    color:#262B35;
+}

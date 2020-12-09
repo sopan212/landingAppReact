@@ -1,0 +1,11 @@
+.quote p{
+    width: 960px;
+    height: 96px;
+    margin-left:80px;
+    margin-top: 250px;
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160%;
+    }
