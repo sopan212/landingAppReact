@@ -1,0 +1,94 @@
+.wrap{
+    display: flex;
+    width: 1300px;
+    height: 1170px;
+    left: 0px;
+    top: 2183px;
+    margin-top: 50px;
+
+}
+
+.update{
+    flex: 45%;
+    margin-top: 40px;
+}
+.menu-icon{
+    flex: 55%;
+}
+.update :nth-child(1){
+ width: 106px;
+height: 21px;
+margin-left: 119px;
+top: 223px;
+margin-bottom: 10px;
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 140%;
+letter-spacing: 0.6em;
+text-transform: uppercase;
+color: #1C57C9;
+}
+.update :nth-child(2){
+ width: 440px;
+height: 118px;
+margin-left: 119px;
+top: 2279px;
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 42px;
+line-height: 140%;
+letter-spacing: -0.02em;
+color: #262B35;
+}
+
+.update :nth-child(3){
+ width: 750px;
+height: 676px;
+margin-left:-40px;
+top: 2150px;
+position: absolute;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -1000px;
+    margin-left: 300px;
+    width: 550px;
+    height:829px;
+
+}
+
+
+.icon img{
+margin-left: -80px;
+position: absolute;
+}
+.icon h5{
+width: 68px;
+height: 24px;
+left: 939px;
+top: 2287px;
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+color: #FFFFFF;
+}
+.icon p{
+ width: 352px;
+height: 96px;
+left: 939px;
+top: 2327px;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 160%;
+color: #FFFFFF;
+}

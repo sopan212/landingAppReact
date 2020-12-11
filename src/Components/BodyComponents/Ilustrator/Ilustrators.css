@@ -1,6 +1,6 @@
 .wrap-conten{
 display: flex;
-   margin-top: 250px;
+   margin-top: 130px;
 }
 .ilustrator{
     width: 35%;  
@@ -12,10 +12,9 @@ display: flex;
     width: 457px;
 }
 .feature{
-    width: 60%;
-    height:600px;
+    width: 50%;
+    height:700px;
     overflow-y: visible;
-    background-color: cyan;
 
 }
 .feature :nth-child(1){

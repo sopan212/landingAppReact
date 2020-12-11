@@ -1,12 +1,21 @@
 .Wraper{
     display: flex;
-  flex-flow:column wrap;
-    width: 324px;
-    height: 226px;
+  flex-flow:wrap;
+    width: 50%;
+    height: 500px;
     top:1650px;
     left: 560px;
-  position: absolute;
-  background-color: darkgreen;
+    margin-left: 560px;
+    margin-top: -450px;
+    z-index:7;
+}
+.Card{
+  width: 250px;
+height: 226px;
+left: 661px;
+top: 1513px;
+  margin-right: 80px;
+  margin-bottom: 10px;
 }
 
 .Card :nth-child(2){

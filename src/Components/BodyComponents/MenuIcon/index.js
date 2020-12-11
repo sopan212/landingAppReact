@@ -4,6 +4,8 @@ import Icon1 from '../../../Assets/icon/icon_1.png'
 import Icon2 from '../../../Assets/icon/icon_2.png'
 import Icon3 from '../../../Assets/icon/icon_3.png'
 import Icon4 from '../../../Assets/icon/icon_4.png'
+import Dotatas from '../../../Assets/images/dot-atas.png'
+
 
 const MenuIcon = () => {
     const Data = [
@@ -38,6 +40,7 @@ const MenuIcon = () => {
                     <p>{data.paragrap}</p>
                 </div>
             ))}
+
         </div>
     )
 }

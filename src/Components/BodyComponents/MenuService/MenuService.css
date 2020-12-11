@@ -1,0 +1,43 @@
+.parrent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1120px;
+height: 1170x;
+margin-left: 100px;
+margin-top: 90px;
+
+}
+
+.parrent :nth-child(1){
+ font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 140%;
+text-align: center;
+letter-spacing: 0.6em;
+text-transform: uppercase;
+color: #1C57C9;
+margin-bottom: 30px;
+} 
+.parrent :nth-child(2){
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 42px;
+line-height: 140%;
+letter-spacing: -0.02em;
+color: #262B35;
+margin-bottom: 30px;
+}
+.parrent :nth-child(3){
+    font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 160%;
+text-align: center;
+color: #606C84;
+margin-bottom: 70px;
+}

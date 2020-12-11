@@ -1,0 +1,38 @@
+.Wraper-Card{
+margin: 30px;
+ width: 1250px; 
+ height: 350px;  
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ padding: 20px;
+}
+
+.card-icon{
+    margin-top: 5px;
+    border: 1px solid rgb(108, 89, 126) 0.8;
+    width: 370px;
+height: 96px;
+border-radius: 15px;
+    box-shadow: 
+         inset 0 -3em 3em rgba(0,0,0,0.1), 
+               0.3em 0.3em 1em rgba(151, 139, 139, 0.3);
+  }
+.card-icon p{
+   text-align: center;
+   margin-top: -40px;
+   margin-left: 50px;
+   font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+color: #262B35;
+}
+.card-icon img{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 55px;
+height: 55px;
+
+}

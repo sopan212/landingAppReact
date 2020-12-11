@@ -1,5 +1,5 @@
 import React from 'react'
-import Dot from '../../../Assets/images/dot.png'
+import Dot from '../../../Assets/images/dot-atas.png'
 import './Dot.css'
 
 const Doted = () => {
