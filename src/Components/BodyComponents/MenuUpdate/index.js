@@ -42,9 +42,9 @@ function MenuUpdate() {
             <div className="menu-icon">
                 <img src={Background} alt="background" />
                 <div className="icon">
-                    {objData.map((data => (
+                    {objData.map(((data,index) => (
                         <div className="card">
-                            <img src={data.icon} alt="icon" />
+                            <img key={index} src={data.icon} alt="icon" />
                             <h5>{data.title}</h5>
                             <p> {data.text}</p>
                         </div>

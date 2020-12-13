@@ -6,6 +6,8 @@ import MenuIcon from './MenuIcon'
 import MenuUpdate from './MenuUpdate'
 import MenuService from './MenuService'
 import CardService from './CardService'
+import TestiMonial from './Testimonial'
+import Contact from './Contact'
 
 
 const Description = () => {
@@ -18,6 +20,8 @@ const Description = () => {
             <MenuUpdate/>
             <MenuService/>
             <CardService/>
+            <TestiMonial/>
+            <Contact/>
         </div>
     )
 }

@@ -1,13 +1,24 @@
 import React from 'react'
 import './MenuNav.css'
 const MenuNav = () => {
+
+    const DataNav = [
+        {title:'Home',
+    link:'/'},
+    {title:'Feature',
+    link:'/'},
+    {title:'Service',
+    link:'/'},
+    {title:'Contact',
+    link:'/'},
+    {title:'FAQ',
+    link:'/'},
+    ]
     return (
         <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Features</a></li>
-            <li><a href="">Service</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href="">FAQ</a></li>
+            {DataNav.map((data=>(
+                <li><a href="">{data.title}</a></li>
+            )))}
         </ul>
     )
 }

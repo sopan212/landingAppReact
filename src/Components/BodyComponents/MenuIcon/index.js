@@ -33,9 +33,9 @@ const MenuIcon = () => {
 
     return (
         <div className="Wraper">
-            {Data.map((data) => (
+            {Data.map((data,index) => (
                 <div className="Card">
-                    <img src={data.Icon} alt="icon" />
+                    <img key={index} src={data.Icon} alt="icon" />
                     <h5>{data.title}</h5>
                     <p>{data.paragrap}</p>
                 </div>
